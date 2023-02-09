@@ -8,12 +8,11 @@
 import UIKit
 import Combine
 
+
 enum SubscriberError: Error {
     case subscriberError
     
 }
-
-
 
 class stringSubscriber: Subscriber {
    
@@ -58,6 +57,8 @@ class ViewController: UIViewController {
       //  }
         
         
+        
+        let subjectTypeEraser = PassthroughSubject<String, SubscriberError>().eraseToAnyPublisher()
         
         
         let subscriber = stringSubscriber()
