@@ -14,6 +14,7 @@ guard let url = URL(string: "https://jsonplaceholder.typicode.com/post") else {
 
 let request = URLSession.shared.dataTaskPublisher(for: url)
 
+
 let subscription = request.handleEvents(receiveSubscription: { subscriptionValue in
     print(subscriptionValue)
 }, receiveOutput: { _ in
