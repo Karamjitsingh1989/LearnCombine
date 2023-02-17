@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		854CFC0A299FD538003134BC /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854CFC09299FD538003134BC /* WebService.swift */; };
+		854CFC0C299FD5C4003134BC /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854CFC0B299FD5C4003134BC /* Endpoint.swift */; };
 		85D0654029972D6D00479AB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D0653F29972D6D00479AB1 /* AppDelegate.swift */; };
 		85D0654229972D6D00479AB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D0654129972D6D00479AB1 /* SceneDelegate.swift */; };
 		85D0654429972D6D00479AB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D0654329972D6D00479AB1 /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		854CFC09299FD538003134BC /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		854CFC0B299FD5C4003134BC /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		85D0653C29972D6D00479AB1 /* CombineNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85D0653F29972D6D00479AB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85D0654129972D6D00479AB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		854CFC08299FD521003134BC /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				854CFC09299FD538003134BC /* WebService.swift */,
+				854CFC0B299FD5C4003134BC /* Endpoint.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
 		85D0653329972D6D00479AB1 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +114,7 @@
 		85D0653E29972D6D00479AB1 /* CombineNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				854CFC08299FD521003134BC /* WebServices */,
 				85D0653F29972D6D00479AB1 /* AppDelegate.swift */,
 				85D0654129972D6D00479AB1 /* SceneDelegate.swift */,
 				85D0654329972D6D00479AB1 /* ViewController.swift */,
@@ -264,6 +278,8 @@
 				85D0654429972D6D00479AB1 /* ViewController.swift in Sources */,
 				85D0657029972D8900479AB1 /* HttpRequest.swift in Sources */,
 				85D0654029972D6D00479AB1 /* AppDelegate.swift in Sources */,
+				854CFC0A299FD538003134BC /* WebService.swift in Sources */,
+				854CFC0C299FD5C4003134BC /* Endpoint.swift in Sources */,
 				85D0654229972D6D00479AB1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
